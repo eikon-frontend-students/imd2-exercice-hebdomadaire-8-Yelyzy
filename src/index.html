@@ -13,41 +13,45 @@
     />
   </head>
   <body>
-    <include
-      src="./component/product.html"
-      locals='{
+    <div class="cart">
+      <include
+        src="./component/product.html"
+        locals='{
     "image": "./image/brocoli.jpg",
     "title": "Brocoli",
     "stock": "En stock",
     "prix": "CHF 4.35"}'
-    ></include>
+      ></include>
 
-    <include
-      src="./component/product.html"
-      locals='{
+      <include
+        src="./component/product.html"
+        locals='{
     "image": "./image/fromage.jpg",
     "title": "Le Gruyère",
     "stock": "En stock",
     "prix": "CHF 11.00"}'
-    ></include>
+      ></include>
 
-    <include
-      src="./component/product.html"
-      locals='{
+      <include
+        src="./component/product.html"
+        locals='{
     "image": "./image/legumes.jpg",
     "title": "Carottes mini",
     "stock": "plus que 1 en stock",
     "prix": "CHF 5.20"}'
-    ></include>
+      ></include>
 
-    <include
-      src="./component/product.html"
-      locals='{
+      <include
+        src="./component/product.html"
+        locals='{
     "image": "./image/chips.jpg",
     "title": "Chips paprika Zweifel",
     "stock": "En stock",
     "prix": "CHF 5.95"}'
-    ></include>
+      ></include>
+
+      <button>Passer à la caisse</button>
+    </div>
 
     <script src="js/main.js" type="module"></script>
   </body>

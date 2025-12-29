@@ -13,9 +13,27 @@ video {
   display: block;
 }
 
+body {
+  padding: 50px;
+  background: #fbfbfb;
+}
+
+.cart {
+  display: flex;
+  width: 284px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
 .product-card {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 15px;
   align-self: stretch;
 }
@@ -31,6 +49,7 @@ img {
   justify-content: center;
   align-items: flex-start;
   gap: 5px;
+  flex: 1 0 0;
 }
 
 .info .product-title {
